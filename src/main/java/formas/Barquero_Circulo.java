@@ -28,7 +28,7 @@ public class Barquero_Circulo {
 	public int getId() {
 		return Id;
 	}
-
+//commit para limpiar la branchd
 	public void setId(int id) {
 		Id = id;
 	}
