@@ -25,5 +25,7 @@ public class Principal_Barquero {
 		System.out.println("Cuadrado: "+rectangulo1);
 		System.out.println("Circulo: "+circulo1);
 		System.out.println("Diferencia:"+diferencia);
+		
+		
 	}
 }

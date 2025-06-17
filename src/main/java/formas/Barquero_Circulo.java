@@ -6,6 +6,7 @@ public class Barquero_Circulo {
 	private double Radio;
 	private String Color;
 	
+	
 	public Barquero_Circulo() {
 		super();
 	}
@@ -62,8 +63,11 @@ public class Barquero_Circulo {
 		return "Barquero_Circulo [Id=" + Id + ", Nombre=" + Nombre + ", Radio=" + Radio + ", Color=" + Color + "]";
 	}
 	
-	
-	
+	//Metodos Main
+	//Circulo: Barquero_Circulo [Id=1, Nombre=circulo, Radio=3.0, Color=verde]
+	//Area circulo:9.42
+	//Diferencia areas: -0.41999999999999993
+	//Diferencia:-0.41999999999999993
 
 	
 	

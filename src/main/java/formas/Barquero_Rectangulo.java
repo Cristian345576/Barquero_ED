@@ -23,7 +23,6 @@ public Barquero_Rectangulo() {
 	}
 
 
-
 	public Barquero_Rectangulo(double ladoA, double ladoB, String color) {
 		super();
 		LadoA = ladoA;
@@ -87,9 +86,10 @@ public Barquero_Rectangulo() {
 	}
 	
 	
-	
-	
-	
+	//Metodos main //Area Cuadrado: 9.0
+	//Cuadrado: Barquero_Rectangulo [Id=3, LadoA=3.0, LadoB=3.0, Color=rojo]
+	//Diferencia areas: -0.41999999999999993
+	//Diferencia:-0.41999999999999993
 	
 	
 	
