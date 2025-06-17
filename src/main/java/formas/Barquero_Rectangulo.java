@@ -1,5 +1,16 @@
 package formas;
 
+/**
+ * @author cristian.barquero
+ * @version 1.0
+ */
+/**
+ * Esta clase nos permite crear nuestros rectangulos con las caracteristicas que deseemos entre los atributos disponibles
+ */
+
+/**
+ * 
+ */
 public class Barquero_Rectangulo {
 	private int Id;
 	private double LadoA;
@@ -14,6 +25,12 @@ public Barquero_Rectangulo() {
 	
 	
 
+	/**
+	 * @param id printea id de la figura en numeros
+	 * @param ladoA printea longitud ladoA de la figura en centimetros
+	 * @param ladoB printea longitud ladoB de la figura en centimetros
+	 * @param color printea color de la figura dando el nombre del color
+	 */
 	public Barquero_Rectangulo(int id, double ladoA, double ladoB, String color) {
 		super();
 		Id = id;
@@ -21,7 +38,6 @@ public Barquero_Rectangulo() {
 		LadoB = ladoB;
 		Color = color;
 	}
-
 
 
 	public Barquero_Rectangulo(double ladoA, double ladoB, String color) {
@@ -80,16 +96,19 @@ public Barquero_Rectangulo() {
 	}
 
 
-
+	/**
+	 * @return Id, LadoA, LadoB, Color
+	 */
 	@Override
 	public String toString() {
 		return "Barquero_Rectangulo [Id=" + Id + ", LadoA=" + LadoA + ", LadoB=" + LadoB + ", Color=" + Color + "]";
 	}
 	
 	
-	
-	
-	
+	//Metodos main //Area Cuadrado: 9.0
+	//Cuadrado: Barquero_Rectangulo [Id=3, LadoA=3.0, LadoB=3.0, Color=rojo]
+	//Diferencia areas: -0.41999999999999993
+	//Diferencia:-0.41999999999999993
 	
 	
 	
