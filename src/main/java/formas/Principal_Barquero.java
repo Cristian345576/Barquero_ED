@@ -1,6 +1,20 @@
 package formas;
 
+/**
+ * @author cristian.barquero
+ * @version
+ */
+
+
+/**
+ * Esta clase nos permite hacer extraccciones de metodos.
+ */
+
+
+
 public class Principal_Barquero {
+	
+	
 	public static void main(String[] args) {
 		//instanciamos un cuadrado y un circulo
 		Barquero_Circulo circulo1 = new Barquero_Circulo(1, "circulo",3, "verde");
