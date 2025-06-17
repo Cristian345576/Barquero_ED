@@ -10,8 +10,16 @@ package formas;
  * Esta clase nos permite hacer extraccciones de metodos.
  */
 
+
 public class Principal_Barquero {
 
+
+
+
+
+
+	
+	
 
 
 
@@ -45,11 +53,16 @@ public class Principal_Barquero {
 		System.out.println("Circulo: "+circulo1);
 		System.out.println("Diferencia:"+diferencia);
 
+
 	}
 
 
 		
 		
-	}
+}
 
+
+
+		
+		
 
